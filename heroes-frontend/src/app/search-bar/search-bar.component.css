@@ -1,0 +1,48 @@
+.container {
+    display: inline;
+    
+}
+
+.search-box {
+    display: block;
+    margin: 40px auto 0 auto;
+    padding: 10px 20px;
+    max-width: 300px;
+    width: 50%;
+}
+
+.search-results {
+    max-width: 300px;
+    width: 55%;
+    margin: 20px auto 0 auto;
+    border: 1px;
+    border-radius: 2px;
+}
+
+.search-results hr{
+    border: none;
+    height: 2px;
+    background-color: lightgrey;
+}
+
+.search-results p{
+    margin: 10x 0;
+}
+
+.search-results a {
+    border: 2px;
+    border-radius: 1px;
+    border-color: black;
+    color: black;
+    text-decoration: none;
+}
+
+.search-results a:hover {
+    color: #369;;
+}
+
+
+
+
+
+

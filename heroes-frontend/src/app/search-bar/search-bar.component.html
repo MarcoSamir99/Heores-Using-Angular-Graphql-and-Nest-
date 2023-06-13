@@ -1,0 +1,22 @@
+<div class="container">
+<input type="text" name="search-box" placeholder="Hero search" class="search-box" (keyup)="sendData($event)">
+<section class="search-results">
+    <a *ngFor="let hero of suggestedHeroes" href="/detail/{{hero.id}}">
+        <hr>
+        <p>{{hero.name}}</p>
+    </a>
+</section>
+</div>
+
+
+
+
+
+<!-- <div>
+    <input type="text" name="search-box" placeholder="Hero search" class="search" (keyup)="sendData($event)">
+    <section>
+        <ul *ngIf="suggestedHeroes.length >= 1">
+            <li *ngFor="let hero of suggestedHeroes" ><a routerLink="/detail/{{hero.id}}" >{{hero.name}}</a></li>
+        </ul>
+    </section>
+    </div> -->

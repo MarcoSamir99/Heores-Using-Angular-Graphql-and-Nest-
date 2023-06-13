@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from \"./batchLink.js\";","map":{"version":3,"names":[],"sources":["D:/Prog courses/Projs/Graphql/Tour of Heroes with nestJS/tour_of_heroes-frontend/node_modules/@apollo/client/link/batch/index.js"],"sourcesContent":["export * from \"./batchLink.js\";\n"],"mappings":"AAAA,cAAc,gBAAgB"},"metadata":{},"sourceType":"module","externalDependencies":[]}

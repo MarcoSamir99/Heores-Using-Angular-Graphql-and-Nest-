@@ -1,0 +1,48 @@
+
+// import { Injectable } from '@angular/core';
+// import { Observable, map, of } from 'rxjs';
+// import { MessageService } from './message.service';
+// import { HttpClient } from '@angular/common/http';
+// import { GET_HERO, GET_HEROES } from './graphql/graphql.queries';
+// import { Apollo } from 'apollo-angular';
+// import { Hero } from './heroes/hero';
+
+// @Injectable({
+//   providedIn: 'root'
+// })
+// export class HeroService {
+
+//   heroes? : Hero[];
+//   hero? : Hero;
+  
+//   constructor (private httpClient: HttpClient ,
+//     private messageservice: MessageService, 
+//     private apollo: Apollo) { }
+
+//   getHeroes(): Observable<Hero[]> {                    
+//     const heroes = this.apollo.query<{heroes: Hero[]}> ({
+//       query: GET_HEROES,
+//     }).pipe(map(response => response.data.heroes));
+//     return heroes;                                 
+//   }
+
+//   getHero(id: number): Observable<Hero> {
+//     const hero = this.apollo.query<Hero> ({
+//       query: GET_HERO,
+//       variables: {
+//         id: id,
+//       }
+//     }).pipe(map(response => response.data));
+//     console.log(hero);
+//     return hero;                                 
+//   }
+
+
+// }
+
+// <input type="text" name="search-box" placeholder="Hero search" class="search" (keyup)="sendData($event)">
+
+//     <ul *ngIf="suggestedHeroes.length >= 1">
+//         <li *ngFor="let hero of suggestedHeroes" routerLink="/detail/{{hero.id}}">{{hero.name}}</li>
+//     </ul>
+

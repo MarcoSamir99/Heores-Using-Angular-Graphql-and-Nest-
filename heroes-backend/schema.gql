@@ -1,0 +1,33 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+directive @upper on FIELD_DEFINITION
+
+type HeroQl {
+  id: Float!
+  name: String!
+}
+
+"""Date custom scalar type"""
+scalar Date
+
+type Query {
+  hero(id: Float!): HeroQl!
+  heroes: [HeroQl!]!
+  suggestedHeroes(key: String!): [HeroQl!]!
+}
+
+type Mutation {
+  addHero(newHeroData: NewHeroInput!): HeroQl!
+  removeHero(id: Float!): Boolean!
+}
+
+input NewHeroInput {
+  id: Float!
+  name: String!
+}
+
+type Subscription {
+  heroAdded: HeroQl!
+}
