@@ -1,1 +1,0 @@
-{"version":3,"file":"heroSequelize.model.js","sourceRoot":"","sources":["../../../src/heroes/Sequelize Model/heroSequelize.model.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,+DAA4D;AAGrD,IAAM,IAAI,GAAV,MAAM,IAAK,SAAQ,4BAAK;CAQ9B,CAAA;AANC;IAAC,IAAA,6BAAM,EAAC,EAAC,UAAU,EAAE,IAAI,EAAC,CAAC;;gCAChB;AAEX;IAAC,6BAAM;;kCACM;AANF,IAAI;IADhB,4BAAK;GACO,IAAI,CAQhB;AARY,oBAAI"}
